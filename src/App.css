@@ -1,3 +1,21 @@
+body{
+  background-color: lavenderblush;
+  font-family: cursive;
+}
+
 .App {
   text-align: center;
+}
+
+.emoji-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.emoji-item{
+  width: 15%;
+  margin: 2rem 2rem 0rem 2rem;
+  cursor: pointer;
 }
